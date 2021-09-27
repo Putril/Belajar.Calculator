@@ -22,6 +22,7 @@ function back(){
 }
 
 
-function clean(){
-	document.form.textarea.value = "";
+function perc() {
+	var value = document.form.textarea.value;
+	value = value / 100;
 }
