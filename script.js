@@ -17,7 +17,7 @@ function back(){
 }
 
 
-function perc() {
+function perc(){
 	var value = document.form.textarea.value;
 	value = value / 100;
 }
